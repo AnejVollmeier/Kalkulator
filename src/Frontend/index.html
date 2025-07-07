@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <h3>Kalkulator</h3>
+    <div id="calculator">
+      <input id="display" readonly />
+      <div id="keys">
+        <button onclick="appandToDispay('+')" class="function">+</button>
+        <button onclick="appandToDispay('7')">7</button>
+        <button onclick="appandToDispay('8')">8</button>
+        <button onclick="appandToDispay('9')">9</button>
+        <button onclick="appandToDispay('-')" class="function">-</button>
+        <button onclick="appandToDispay('4')">4</button>
+        <button onclick="appandToDispay('5')">5</button>
+        <button onclick="appandToDispay('6')">6</button>
+        <button onclick="appandToDispay('*')" class="function">*</button>
+        <button onclick="appandToDispay('1')">1</button>
+        <button onclick="appandToDispay('2')">2</button>
+        <button onclick="appandToDispay('3')">3</button>
+        <button onclick="appandToDispay('/')" class="function">/</button>
+        <button onclick="appandToDispay('0')">0</button>
+        <button onclick="appandToDispay('.')">.</button>
+        <button onclick="calculate()" class="function">=</button>
+        <button onclick="clearDisplay()" class="function">C</button>
+      </div>
+    </div>
+  </body>
+</html>
